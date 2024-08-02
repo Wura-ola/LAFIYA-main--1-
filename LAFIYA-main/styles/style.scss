@@ -1,0 +1,30 @@
+@import "./_var";
+@import "./_hero";
+@import "./_main";
+@import "./_nav";
+@import "./footer";
+body {
+  background-color: #efefef;
+}
+.container {
+  font-family: "Quicksand", sans-serif;
+  max-width: 1440px;
+  margin: 0 auto;
+  // height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // width: 100%;
+
+  //   align-items: center;
+  flex-direction: column;
+  button {
+    cursor: pointer;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
